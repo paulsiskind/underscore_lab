@@ -7,7 +7,7 @@ You're going to recreate some of the functionality of the popular JS library Und
 ##Part 1
 
 * average - returns the average value in a given array
-
+  
 ```
 _.average([4,6,1,1])
 => 3
