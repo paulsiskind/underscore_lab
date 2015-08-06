@@ -73,7 +73,14 @@ difference: function(x,y){
   }
   }return(result);
     },   
-    
+indexOf: function (arr1, arr2){
+     for(var i=0; i<arr1.length; i++)
+    if(arr1[i] === arr2){
+       console.log(i);
+     } else {
+     return -1;
+     }
+ },    
 
 random: function(array,x){
      var result = [];
